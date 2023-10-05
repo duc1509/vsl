@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    
+    background-image: url('background.jpg'); /* Đường dẫn tới ảnh nền */
+    background-size: cover; /* Hiển thị ảnh nền với kích thước bao phủ */
+    background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#login-status {
+    margin-top: 10px;
+    color: red;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+.sentence {
+    display: flex;
+    gap: 10px;
+      
+  }
+
+  .words {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+  }
+
+  .image {
+    position: absolute;
+    width: 70px; /* Độ rộng của hình ảnh */
+    height: 70px; /* Chiều cao tự động dựa trên tỷ lệ khung hình */
+    display: block; /* Đảm bảo hình ảnh hiển thị đúng dạng khối */
+    margin: 0 auto; /* Canh giữa hình ảnh trong phần tử cha */
+    left: 480px; /* Điều chỉnh giá trị left tùy ý */
+    top: 80px; /* Để ảnh nằm ở giữa theo chiều dọc */
+    transform: translateY(-50%); /* Dịch chuyển ảnh lên để nằm chính giữa */
+
+  }
+  
+  
+  .word {
+    border: 1px solid #333; 
+    padding: 5px; 
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .boxes {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .box {
+    border: 1px solid #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .boxx{
+    margin: 15px;
+    height: 100px;
+    width: 500px; 
+    border: 2px solid black;
+    display: flex;
+     flex-wrap: wrap; /* Cho phép các phần tử con xuống hàng khi không đủ không gian */
+  }
+  .box_1{
+    border: 1px solid black;
+    height: 30px;
+    margin: 5px;
+    padding: 2px 2px 2px 2px;
+    background-color: darkgrey;
+    background-color: aquamarine;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    margin-top: 10px; /* Khoảng cách trên */
+  }
+
+  .button {
+    margin: 0 5px; /* Khoảng cách giữa các nút */
+  }
+
+  #login-form{
+    height: auto;
+    width: 500px;
+  }
